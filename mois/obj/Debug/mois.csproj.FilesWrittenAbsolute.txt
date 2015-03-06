@@ -1,0 +1,12 @@
+/Users/petrvolf/Projects/mois/obj/Debug/.NETFramework,Version=v4.5.AssemblyAttribute.cs
+/Users/petrvolf/Projects/mois/bin/mois.dll.mdb
+/Users/petrvolf/Projects/mois/bin/mois.dll
+/Users/petrvolf/Projects/mois/obj/Debug/mois.dll
+/Users/petrvolf/Projects/mois/obj/Debug/mois.dll.mdb
+/Users/petrvolf/Projects/mois/bin/Microsoft.Web.Infrastructure.dll
+/Users/petrvolf/Projects/mois/bin/System.Web.Razor.dll
+/Users/petrvolf/Projects/mois/bin/System.Web.Helpers.dll
+/Users/petrvolf/Projects/mois/bin/System.Web.WebPages.dll
+/Users/petrvolf/Projects/mois/bin/System.Web.WebPages.Deployment.dll
+/Users/petrvolf/Projects/mois/bin/System.Web.WebPages.Razor.dll
+/Users/petrvolf/Projects/mois/bin/System.Web.Mvc.dll
