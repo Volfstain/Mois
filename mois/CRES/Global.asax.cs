@@ -1,37 +1,51 @@
-﻿
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
+using System.Collections;
+using System.ComponentModel;
 using System.Web;
-using System.Web.Mvc;
-using System.Web.Routing;
+using System.Web.SessionState;
 
 namespace CRES
 {
-	public class MvcApplication : System.Web.HttpApplication
+	public class Global : System.Web.HttpApplication
 	{
-		public static void RegisterRoutes (RouteCollection routes)
+		protected void Application_Start (Object sender, EventArgs e)
 		{
-			routes.IgnoreRoute ("{resource}.axd/{*pathInfo}");
-
-			routes.MapRoute (
-				"Default",
-				"{controller}/{action}/{id}",
-				new { controller = "Home", action = "Index", id = "" }
-			);
 
 		}
 
-		public static void RegisterGlobalFilters (GlobalFilterCollection filters)
+		protected void Session_Start (Object sender, EventArgs e)
 		{
-			filters.Add (new HandleErrorAttribute ());
+
 		}
 
-		protected void Application_Start ()
+		protected void Application_BeginRequest (Object sender, EventArgs e)
 		{
-			AreaRegistration.RegisterAllAreas ();
-			RegisterGlobalFilters (GlobalFilters.Filters);
-			RegisterRoutes (RouteTable.Routes);
+
+		}
+
+		protected void Application_EndRequest (Object sender, EventArgs e)
+		{
+
+		}
+
+		protected void Application_AuthenticateRequest (Object sender, EventArgs e)
+		{
+
+		}
+
+		protected void Application_Error (Object sender, EventArgs e)
+		{
+
+		}
+
+		protected void Session_End (Object sender, EventArgs e)
+		{
+
+		}
+
+		protected void Application_End (Object sender, EventArgs e)
+		{
+
 		}
 	}
 }

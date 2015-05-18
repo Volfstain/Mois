@@ -1,13 +1,6 @@
-﻿<Properties StartupItem="mois.csproj" GitUserInfo="UsingGIT">
+﻿<Properties StartupItem="CRES/CRES.csproj" GitUserInfo="UsingGIT">
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="CRES.sdf">
-    <Files>
-      <File FileName="Views/Home/Index.aspx" Line="14" Column="40" />
-      <File FileName="Resources_src/NHibernate/EmptyCSharpFile.cs" Line="1" Column="1" />
-      <File FileName="Web.config" Line="105" Column="3" />
-      <File FileName="CRES.sdf" Line="2" Column="1" />
-    </Files>
-  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.Workbench />
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
     <BreakpointStore />
   </MonoDevelop.Ide.DebuggingService.Breakpoints>

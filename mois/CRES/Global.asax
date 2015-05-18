@@ -1,2 +1,1 @@
-﻿<%@ Application Inherits="CRES.MvcApplication" %>
-
+﻿<%@ Application Inherits="CRES.Global" %>

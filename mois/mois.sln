@@ -5,7 +5,7 @@ VisualStudioVersion = 12.0.21005.1
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "mois", "mois.csproj", "{36A13B2F-7C18-48EA-875F-566A5E7416D1}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CRES", "CRES\CRES.csproj", "{092ABCF4-05BD-49A2-80F6-354C93F24C07}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CRES", "CRES\CRES.csproj", "{84A7597D-3850-4FDD-90D3-09D85B12D263}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -13,14 +13,14 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{092ABCF4-05BD-49A2-80F6-354C93F24C07}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{092ABCF4-05BD-49A2-80F6-354C93F24C07}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{092ABCF4-05BD-49A2-80F6-354C93F24C07}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{092ABCF4-05BD-49A2-80F6-354C93F24C07}.Release|Any CPU.Build.0 = Release|Any CPU
 		{36A13B2F-7C18-48EA-875F-566A5E7416D1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{36A13B2F-7C18-48EA-875F-566A5E7416D1}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{36A13B2F-7C18-48EA-875F-566A5E7416D1}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{36A13B2F-7C18-48EA-875F-566A5E7416D1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{84A7597D-3850-4FDD-90D3-09D85B12D263}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{84A7597D-3850-4FDD-90D3-09D85B12D263}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{84A7597D-3850-4FDD-90D3-09D85B12D263}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{84A7597D-3850-4FDD-90D3-09D85B12D263}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
