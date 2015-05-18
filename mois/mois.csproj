@@ -75,12 +75,6 @@
     <Reference Include="System.Web.Mvc">
       <HintPath>packages\Microsoft.AspNet.Mvc.5.2.0\lib\net45\System.Web.Mvc.dll</HintPath>
     </Reference>
-    <Reference Include="NHibernate">
-      <HintPath>Resources_src\NHibernate\Required_Bins\NHibernate.dll</HintPath>
-    </Reference>
-    <Reference Include="Iesi.Collections">
-      <HintPath>Resources_src\NHibernate\Required_Bins\Iesi.Collections.dll</HintPath>
-    </Reference>
   </ItemGroup>
   <ItemGroup>
     <Folder Include="Content\" />
@@ -109,7 +103,6 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="App_Data\dbCRES.sdf" />
-    <Content Include="hibernate.cfg.xml" />
     <Content Include="Views\Web.config" />
     <Content Include="Views\Shared\Error.aspx" />
     <Content Include="Web.config" />
@@ -120,6 +113,7 @@
     <Content Include="Resources_src\NHibernate\Tests\NHibernate.Test.dll.config" />
     <Content Include="Resources_src\NHibernate\Tests\NHibernate.Test.VisualBasic.dll.config" />
     <Content Include="Resources_src\NHibernate\Tests\NHibernate.TestDatabaseSetup.dll.config" />
+    <Content Include="hibernate.cfg.xml" />
   </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
@@ -196,6 +190,5 @@
     <None Include="Resources_src\NHibernate\Tests\SharpTestsEx.NUnit.dll" />
     <None Include="Resources_src\NHibernate\Tests\SharpTestsEx.NUnit.xml" />
     <None Include="Resources_src\NHibernate\Tests\TestEnbeddedConfig.cfg.xml" />
-    <None Include="CRES.sdf" />
   </ItemGroup>
 </Project>
