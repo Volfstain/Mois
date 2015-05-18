@@ -196,5 +196,6 @@
     <None Include="Resources_src\NHibernate\Tests\SharpTestsEx.NUnit.dll" />
     <None Include="Resources_src\NHibernate\Tests\SharpTestsEx.NUnit.xml" />
     <None Include="Resources_src\NHibernate\Tests\TestEnbeddedConfig.cfg.xml" />
+    <None Include="CRES.sdf" />
   </ItemGroup>
 </Project>
