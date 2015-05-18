@@ -41,6 +41,8 @@
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Drawing" />
     <Reference Include="System.Web" />
     <Reference Include="System.Xml" />
     <Reference Include="System.Core" />
@@ -83,17 +85,31 @@
   <ItemGroup>
     <Folder Include="Content\" />
     <Folder Include="Models\" />
+    <Folder Include="Resources_src\DB\" />
     <Folder Include="Scripts\" />
-    <Folder Include="Resources_src\" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="App_Data\dbCRES.sdf.cs">
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="App_Data\dbCRES.sdf.designer.cs">
+      <DependentUpon>dbCRES.sdf.cs</DependentUpon>
+    </Compile>
     <Compile Include="Controllers\HomeController.cs" />
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
+    <Compile Include="hibernate.cfg.xml.cs">
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="hibernate.cfg.xml.designer.cs">
+      <DependentUpon>hibernate.cfg.xml.cs</DependentUpon>
+    </Compile>
     <Compile Include="Resources_src\NHibernate\EmptyCSharpFile.cs" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="App_Data\dbCRES.sdf" />
+    <Content Include="hibernate.cfg.xml" />
     <Content Include="Views\Web.config" />
     <Content Include="Views\Shared\Error.aspx" />
     <Content Include="Web.config" />
