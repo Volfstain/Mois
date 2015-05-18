@@ -10,3 +10,5 @@
 /Users/petrvolf/Projects/mois/bin/System.Web.WebPages.Deployment.dll
 /Users/petrvolf/Projects/mois/bin/System.Web.WebPages.Razor.dll
 /Users/petrvolf/Projects/mois/bin/System.Web.Mvc.dll
+/Users/petrvolf/Projects/mois/bin/NHibernate.dll
+/Users/petrvolf/Projects/mois/bin/Iesi.Collections.dll

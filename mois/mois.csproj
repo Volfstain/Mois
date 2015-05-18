@@ -73,13 +73,18 @@
     <Reference Include="System.Web.Mvc">
       <HintPath>packages\Microsoft.AspNet.Mvc.5.2.0\lib\net45\System.Web.Mvc.dll</HintPath>
     </Reference>
+    <Reference Include="NHibernate">
+      <HintPath>Resources_src\NHibernate\Required_Bins\NHibernate.dll</HintPath>
+    </Reference>
+    <Reference Include="Iesi.Collections">
+      <HintPath>Resources_src\NHibernate\Required_Bins\Iesi.Collections.dll</HintPath>
+    </Reference>
   </ItemGroup>
   <ItemGroup>
     <Folder Include="Content\" />
     <Folder Include="Models\" />
     <Folder Include="Scripts\" />
     <Folder Include="Resources_src\" />
-    <Folder Include="Resources_src\NHibernate\" />
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Controllers\HomeController.cs" />
@@ -95,6 +100,10 @@
     <Content Include="Global.asax" />
     <Content Include="packages.config" />
     <Content Include="Views\Home\Index.aspx" />
+    <Content Include="Resources_src\NHibernate\readme.html" />
+    <Content Include="Resources_src\NHibernate\Tests\NHibernate.Test.dll.config" />
+    <Content Include="Resources_src\NHibernate\Tests\NHibernate.Test.VisualBasic.dll.config" />
+    <Content Include="Resources_src\NHibernate\Tests\NHibernate.TestDatabaseSetup.dll.config" />
   </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
@@ -126,4 +135,50 @@
   </ProjectExtensions>
   <Import Project="$(VSToolsPath)\WebApplications\Microsoft.WebApplication.targets" Condition="'$(VSToolsPath)' != ''" />
   <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v10.0\WebApplications\Microsoft.WebApplication.targets" Condition="false" />
+  <ItemGroup>
+    <None Include="Resources_src\NHibernate\.DS_Store" />
+    <None Include="Resources_src\NHibernate\Configuration_Templates\FireBird.cfg.xml" />
+    <None Include="Resources_src\NHibernate\Configuration_Templates\MSSQL.cfg.xml" />
+    <None Include="Resources_src\NHibernate\Configuration_Templates\MySql.cfg.xml" />
+    <None Include="Resources_src\NHibernate\Configuration_Templates\Oracle.cfg.xml" />
+    <None Include="Resources_src\NHibernate\Configuration_Templates\PostgreSQL.cfg.xml" />
+    <None Include="Resources_src\NHibernate\Configuration_Templates\SQLite.cfg.xml" />
+    <None Include="Resources_src\NHibernate\Configuration_Templates\SybaseASE.cfg.xml" />
+    <None Include="Resources_src\NHibernate\Configuration_Templates\SybaseSQLAnywhere.cfg.xml" />
+    <None Include="Resources_src\NHibernate\gfdl.txt" />
+    <None Include="Resources_src\NHibernate\HowInstall.txt" />
+    <None Include="Resources_src\NHibernate\NHibernate.license.txt\lgpl.txt" />
+    <None Include="Resources_src\NHibernate\releasenotes.txt" />
+    <None Include="Resources_src\NHibernate\Required_Bins\Iesi.Collections.dll" />
+    <None Include="Resources_src\NHibernate\Required_Bins\Iesi.Collections.xml" />
+    <None Include="Resources_src\NHibernate\Required_Bins\NHibernate.dll" />
+    <None Include="Resources_src\NHibernate\Required_Bins\NHibernate.pdb" />
+    <None Include="Resources_src\NHibernate\Required_Bins\NHibernate.xml" />
+    <None Include="Resources_src\NHibernate\Required_Bins\nhibernate-configuration.xsd" />
+    <None Include="Resources_src\NHibernate\Required_Bins\nhibernate-mapping.xsd" />
+    <None Include="Resources_src\NHibernate\Tests\ABC.hbm.xml" />
+    <None Include="Resources_src\NHibernate\Tests\DbScripts\MsSql2008DialectLinqReadonlyCreateScript.sql" />
+    <None Include="Resources_src\NHibernate\Tests\DbScripts\MsSql2008DialectLinqReadonlyDropScript.sql" />
+    <None Include="Resources_src\NHibernate\Tests\DbScripts\MsSql2012DialectLinqReadonlyCreateScript.sql" />
+    <None Include="Resources_src\NHibernate\Tests\DbScripts\MsSql2012DialectLinqReadonlyDropScript.sql" />
+    <None Include="Resources_src\NHibernate\Tests\DbScripts\PostgreSQL82DialectLinqReadonlyCreateScript.sql" />
+    <None Include="Resources_src\NHibernate\Tests\DbScripts\PostgreSQL82DialectLinqReadonlyDropScript.sql" />
+    <None Include="Resources_src\NHibernate\Tests\log4net.dll" />
+    <None Include="Resources_src\NHibernate\Tests\log4net.license.txt" />
+    <None Include="Resources_src\NHibernate\Tests\log4net.xml" />
+    <None Include="Resources_src\NHibernate\Tests\NHibernate.DomainModel.dll" />
+    <None Include="Resources_src\NHibernate\Tests\NHibernate.DomainModel.pdb" />
+    <None Include="Resources_src\NHibernate\Tests\NHibernate.DomainModel.xml" />
+    <None Include="Resources_src\NHibernate\Tests\NHibernate.Test.dll" />
+    <None Include="Resources_src\NHibernate\Tests\NHibernate.Test.pdb" />
+    <None Include="Resources_src\NHibernate\Tests\NHibernate.Test.VisualBasic.dll" />
+    <None Include="Resources_src\NHibernate\Tests\NHibernate.Test.VisualBasic.pdb" />
+    <None Include="Resources_src\NHibernate\Tests\NHibernate.TestDatabaseSetup.dll" />
+    <None Include="Resources_src\NHibernate\Tests\NHibernate.TestDatabaseSetup.pdb" />
+    <None Include="Resources_src\NHibernate\Tests\nunit.framework.dll" />
+    <None Include="Resources_src\NHibernate\Tests\nunit.framework.xml" />
+    <None Include="Resources_src\NHibernate\Tests\SharpTestsEx.NUnit.dll" />
+    <None Include="Resources_src\NHibernate\Tests\SharpTestsEx.NUnit.xml" />
+    <None Include="Resources_src\NHibernate\Tests\TestEnbeddedConfig.cfg.xml" />
+  </ItemGroup>
 </Project>
